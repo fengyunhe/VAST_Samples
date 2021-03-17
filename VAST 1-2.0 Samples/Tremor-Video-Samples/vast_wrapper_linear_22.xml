@@ -2,7 +2,7 @@
     <Ad id="602833">
         <Wrapper>
             <AdSystem>Acudeo Compatible</AdSystem>
-            <VASTAdTagURI>https://raw.githubusercontent.com/fengyunhe/VAST_Samples/master/VAST%201-2.0%20Samples/Tremor-Video-Samples/vast_inline_linear11.xml</VASTAdTagURI>
+            <VASTAdTagURI>https://raw.githubusercontent.com/fengyunhe/VAST_Samples/master/VAST%201-2.0%20Samples/Tremor-Video-Samples/vast_inline_linear22.xml</VASTAdTagURI>
             <Error>http://example.com/wrapper/error</Error>
             <Impression>http://example.com/trackingurl/wrapper/impression</Impression>
             <Creatives>
