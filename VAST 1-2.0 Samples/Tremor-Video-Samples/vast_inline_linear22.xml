@@ -20,17 +20,6 @@
 						</MediaFiles>
 					</Linear>
 				</Creative>
-				<Creative AdID="602833">
-					<CompanionAds>
-						<Companion id="c1" width="300" height="60">
-							<StaticResource creativeType="image/png"><![CDATA[ https://box.bdimg.com/static/fisp_static/common/img/searchbox/logo_news_276_88_1f9876a.png]]></StaticResource>
-							<TrackingEvents>
-								<Tracking event="creativeView"><![CDATA[ http://example.com/trackingurl/wrapper/creativeView2]]></Tracking>
-								<Tracking event="start">http://example.com/trackingurl/wrapper/start2</Tracking>
-							</TrackingEvents>
-						</Companion>
-					</CompanionAds>
-				</Creative>
 			</Creatives>
 		</InLine>
 	</Ad>
