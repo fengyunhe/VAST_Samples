@@ -26,8 +26,7 @@
                     <CompanionAds>
                         <Companion id="c1" width="300" height="100">
                             <StaticResource creativeType="image/png">https://box.bdimg.com/static/fisp_static/common/img/searchbox/logo_news_276_88_1f9876a.png</StaticResource>
-                        </Companion>
-                        <TrackingEvents>
+			<TrackingEvents>
                             <Tracking event="creativeView">http://example.com/trackingurl/wrapper/creativeView2</Tracking>
                             <Tracking event="start">http://example.com/trackingurl/wrapper/start2</Tracking>
                             <Tracking event="midpoint">http://example.com/trackingurl/wrapper/midpoint2</Tracking>
@@ -40,6 +39,8 @@
                             <Tracking event="resume">http://example.com/trackingurl/wrapper/resume2</Tracking>
                             <Tracking event="fullscreen">http://example.com/trackingurl/wrapper/fullscreen2</Tracking>
                         </TrackingEvents>
+                        </Companion>
+                    
                     </CompanionAds>
                 </Creative>
 			</CompanionAds>
