@@ -1,0 +1,50 @@
+<VAST version="2.0">
+    <Ad id="602833">
+        <Wrapper>
+            <AdSystem>Acudeo Compatible</AdSystem>
+            <VASTAdTagURI>https://raw.githubusercontent.com/fengyunhe/VAST_Samples/master/VAST%201-2.0%20Samples/Tremor-Video-Samples/vast2.0_inline_linear_companion_c1_300x60.xml</VASTAdTagURI>
+            <Error>http://example.com/wrapper/error</Error>
+            <Impression>http://example.com/trackingurl/wrapper/impression</Impression>
+            <Creatives>
+                <Creative AdID="602833">
+                    <Linear>
+                        <TrackingEvents>
+                            <Tracking event="creativeView">http://example.com/trackingurl/wrapper/creativeView</Tracking>
+                            <Tracking event="start">http://example.com/trackingurl/wrapper/start</Tracking>
+                            <Tracking event="midpoint">http://example.com/trackingurl/wrapper/midpoint</Tracking>
+                            <Tracking event="firstQuartile">http://example.com/trackingurl/wrapper/firstQuartile</Tracking>
+                            <Tracking event="thirdQuartile">http://example.com/trackingurl/wrapper/thirdQuartile</Tracking>
+                            <Tracking event="complete">http://example.com/trackingurl/wrapper/complete</Tracking>
+                            <Tracking event="mute">http://example.com/trackingurl/wrapper/mute</Tracking>
+                            <Tracking event="unmute">http://example.com/trackingurl/wrapper/unmute</Tracking>
+                            <Tracking event="pause">http://example.com/trackingurl/wrapper/pause</Tracking>
+                            <Tracking event="resume">http://example.com/trackingurl/wrapper/resume</Tracking>
+                            <Tracking event="fullscreen">http://example.com/trackingurl/wrapper/fullscreen</Tracking>
+                        </TrackingEvents>
+                    </Linear>
+                </Creative>
+                <Creative AdID="602834">
+                    <CompanionAds>
+                        <Companion id="c1" width="120" height="60">
+                            <StaticResource creativeType="image/png">https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png</StaticResource>
+                            <TrackingEvents>
+                                <Tracking event="creativeView">http://example.com/trackingurl/wrapper/creativeView2</Tracking>
+                                <Tracking event="start">http://example.com/trackingurl/wrapper/start2</Tracking>
+                                <Tracking event="midpoint">http://example.com/trackingurl/wrapper/midpoint2</Tracking>
+                                <Tracking event="firstQuartile">http://example.com/trackingurl/wrapper/firstQuartile2</Tracking>
+                                <Tracking event="thirdQuartile">http://example.com/trackingurl/wrapper/thirdQuartile2</Tracking>
+                                <Tracking event="complete">http://example.com/trackingurl/wrapper/complete2</Tracking>
+                                <Tracking event="mute">http://example.com/trackingurl/wrapper/mute2</Tracking>
+                                <Tracking event="unmute">http://example.com/trackingurl/wrapper/unmute2</Tracking>
+                                <Tracking event="pause">http://example.com/trackingurl/wrapper/pause2</Tracking>
+                                <Tracking event="resume">http://example.com/trackingurl/wrapper/resume2</Tracking>
+                                <Tracking event="fullscreen">http://example.com/trackingurl/wrapper/fullscreen2</Tracking>
+                            </TrackingEvents>
+                        </Companion>
+                        
+                    </CompanionAds>
+                </Creative>
+            </Creatives>
+        </Wrapper>
+    </Ad>
+</VAST>
